@@ -1,9 +1,9 @@
 var Shape = require("../src/shape");
-console.log(Shape);
+// console.log(Shape);
 
 var shape;
 shape = new Shape(1,"red");
-console.log(shape.color);
+// console.log(shape.color);
 
 describe("Shape", function() {
   beforeEach(function() {
