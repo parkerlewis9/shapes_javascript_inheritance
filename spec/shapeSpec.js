@@ -16,5 +16,17 @@ describe("Shape", function() {
     });
   });
 
+  describe("RGB", function() {
+    it("should return correct rgb color", function() {
+      expect(shape.getRGB()).toEqual("rgb(225,0,0)");
+    });
+  });
+
+   describe("RGB", function() {
+    it("should return correct rgb color", function() {
+    	shape = new Shape(1,"green")
+      expect(shape.getRGB()).toEqual("rgb(0,225,0)");
+    });
+  });
   // Write more specs!!
 });
